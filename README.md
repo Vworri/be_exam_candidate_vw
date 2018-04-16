@@ -30,15 +30,3 @@ If given an invalid filepath for the input, the program will error
 1. The headers for the input file are exactly: INTERNAL_ID,FIRST_NAME,MIDDLE_NAME,LAST_NAME,PHONE_NUM
 2. The user has access to the original file and has given python adequate permissions
 3. All paths given will be relative to app.py or absolute
-## Instructions
-
-1. Fork this repo.
-1. Using technology of your choice, complete [the assignment](./Assignment.md).
-1. Update this README with
-    * a `How-To` section containing any instructions needed to execute your program.
-    * an `Assumptions` section containing documentation on any assumptions made while interpreting the requirements.
-1. Before the deadline, submit a pull request with your solution.
-
-## Expectations
-1. Please take no more than 8 hours to work on this exercise. Complete as much as possible and then submit your solution.
-1. This exercise is meant to showcase how you work. With consideration to the time limit, do your best to treat it like a production system.
