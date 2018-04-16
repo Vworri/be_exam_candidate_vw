@@ -7,7 +7,7 @@ After you pull the repo to your local machine,
 and your path properly set on [windows](https://docs.python.org/3.6/using/windows.html) or [mac](https://docs.python.org/3.6/using/mac.html)
  pip install the requirements
     
-```bash
+```commandline
     pip3 install -r requirements.txt
 ```
 This will go very easily if you also use a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
@@ -18,13 +18,19 @@ Now that the environment is set up, all you have to do is run:
 ```
 
 if you have multiple versions of Python downloaded and have gotten an error while trying to run app.py, try:
-```bash
+```commandline
     python3 app.py
 ```
 The app will prompt the user for some information:
 Where to find the input file and where to place the output file
 
 If given an invalid filepath for the input, the program will error
+
+###Testing:
+ In the command line:
+```commandline
+python test_recordValidation.py 
+```
 
 ## Assumptions
 1. The headers for the input file are exactly: INTERNAL_ID,FIRST_NAME,MIDDLE_NAME,LAST_NAME,PHONE_NUM
